@@ -17,6 +17,11 @@ public class RnChartDeskPackage implements ReactPackage {
 
   @Override
   public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
-    return Arrays.<ViewManager>asList(new RnChartDeskViewManager());
+    return Arrays.<ViewManager>asList(
+            new PieChartManager(),
+            new BarChartManager(),
+            new GroupedBarChartManager(),
+            new LineChartManager()
+    );
   }
 }
