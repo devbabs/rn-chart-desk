@@ -14,6 +14,8 @@ npm install rn-chart-desk
 
 ## LineChart
 
+![rn-chart-desk React Native Line Chart](assets/linechart.png "rn-chart-desk LineChart")
+
 ```js
 import { LineChart } from "rn-chart-desk";
 
@@ -33,6 +35,8 @@ import { LineChart } from "rn-chart-desk";
 ```
 
 ## PieChart
+
+![rn-chart-desk React Native Pie Chart](assets/piechart.png "rn-chart-desk PieChart")
 
 ```js
 import { PieChart } from "rn-chart-desk";
@@ -62,6 +66,8 @@ import { PieChart } from "rn-chart-desk";
 
 ## BarChart
 
+![rn-chart-desk React Native Bar Chart](assets/barchart.png "rn-chart-desk BarChart")
+
 ```js
 import { BarChart } from "rn-chart-desk";
 
@@ -83,33 +89,35 @@ import { BarChart } from "rn-chart-desk";
 
 ## GroupedBarChart
 
+![rn-chart-desk React Native Grouped Bar Chart](assets/grouped-barchart.png "rn-chart-desk GroupedBarChart")
+
 ```js
 import { GroupedBarChart } from "rn-chart-desk";
 
 // ...
 
 <GroupedBarChart
-    style={{ flex: 1 }}
-    data={JSON.stringify([
-        {
-            values: [3, 2, 9, 10, 3],
-            label: "First Dataset",
-            color: "#F06F00"
-        },
-        {
-            values: [5, 20, 7, 1, 34],
-            label: "Second Dataset",
-            color: 'blue'
-        },
-        {
-            values: [30, 2, 15, 29, 5],
-            label: "Third Dataset",
-            color: 'green'
-        },
-    ])}
-    description={""}
-    xAxisLabels={JSON.stringify(["Jan", "Feb", "Mar", "Apr", "May"])}
-    roundValues={true}
+  style={{ flex: 1 }}
+  data={JSON.stringify([
+    {
+      values: [3, 2, 9, 10, 3],
+      label: "First Dataset",
+      color: "#F06F00"
+    },
+    {
+      values: [5, 20, 7, 1, 34],
+      label: "Second Dataset",
+      color: 'blue'
+    },
+    {
+      values: [30, 2, 15, 29, 5],
+      label: "Third Dataset",
+      color: 'green'
+    },
+  ])}
+  description={""}
+  xAxisLabels={JSON.stringify(["Jan", "Feb", "Mar", "Apr", "May"])}
+  roundValues={true}
 />
 ```
 
