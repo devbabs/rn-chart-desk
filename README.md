@@ -2,16 +2,27 @@
 
 A powerful & easy to use chart library for creating customizable charts in React Native (Please note that this package does not have iOS support yet).
 
+
+**Table of content:**
+ - [Installation](#installation)
+ - [Line Chart](#linechart)
+ - [Pie Chart](#piechart)
+ - [Bar Chart](#barchart)
+ - [Grouped Bar Chart](#grouped-barchart)
+ - [Author](#author)
+
 ## TODO: iOS Version
 
 ⚠️ When passing data to any of the charts, make sure you pass as `JSON.stringify()`
 
+<a id="installation"></a>
 ## Installation
 
 ```sh
 npm install rn-chart-desk
 ```
 
+<a id="linechart"></a>
 ## LineChart
 
 ![rn-chart-desk React Native Line Chart](assets/linechart.png "rn-chart-desk LineChart")
@@ -34,6 +45,7 @@ import { LineChart } from "rn-chart-desk";
 />
 ```
 
+<a id="piechart"></a>
 ## PieChart
 
 ![rn-chart-desk React Native Pie Chart](assets/piechart.png "rn-chart-desk PieChart")
@@ -64,6 +76,7 @@ import { PieChart } from "rn-chart-desk";
 />
 ```
 
+<a id="barchart"></a>
 ## BarChart
 
 ![rn-chart-desk React Native Bar Chart](assets/barchart.png "rn-chart-desk BarChart")
@@ -87,6 +100,7 @@ import { BarChart } from "rn-chart-desk";
 />
 ```
 
+<a id="grouped-barchart"></a>
 ## GroupedBarChart
 
 ![rn-chart-desk React Native Grouped Bar Chart](assets/grouped-barchart.png "rn-chart-desk GroupedBarChart")
@@ -127,6 +141,7 @@ You can round all values on any of the charts by setting `roundValues` to `true`
 roundValues={true | false}
 ```
 
+<a id="author"></a>
 ## Author
 [Babalola Macaulay](https://github.com/devbabs)
 
