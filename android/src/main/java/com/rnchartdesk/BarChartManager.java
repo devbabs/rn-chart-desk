@@ -144,7 +144,7 @@ public class BarChartManager extends SimpleViewManager<BarChart> {
             xAxis.setValueFormatter(new IndexAxisValueFormatter() {
                 @Override
                 public String getFormattedValue(float value) {
-                return String.valueOf((int) value);
+                  return String.valueOf((int) value);
                 }
             });
         }

@@ -4,6 +4,7 @@ import { Dimensions, ScrollView, StyleSheet, View } from 'react-native';
 import { PieChart, BarChart, LineChart, GroupedBarChart } from 'rn-chart-desk';
 
 export default function App() {
+
   return (
     <ScrollView style={styles.container} contentContainerStyle={{ paddingVertical: 50, paddingHorizontal: 20 }}>
       <View
